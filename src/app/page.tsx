@@ -112,7 +112,7 @@ export default function StockManagement() {
             placeholder="Search products..."
             value={searchTerm}
             onChange={handleSearch}
-            className="max-w-sm"
+            className="max-w-sm mr-2"
           />
           <Button onClick={handleAdd}>Add Product</Button>
         </div>
